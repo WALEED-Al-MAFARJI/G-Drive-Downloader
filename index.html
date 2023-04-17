@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>G Drive Downloader</title>
+  <meta name="description" content="Easily Generate GDRIVE Link for Drirect Download." />
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="google drive.png" type="image/png" sizes="16x16">
+</head>
+
+
+<body style="font-family: 'Cairo', sans-serif;">
+  <div class="container">
+  <div style="padding-top:20px;">
+	<center><img src="google drive.png" style="height:150px;" alt="Google Drive Logo">
+	<h2 style=" font-family: 'Cairo', sans-serif;background:white;max-width:320px;border-radius:30px;"><span style="color:#10975B">G</span><span style="color:#E3B73A;">DRIVE</span> <span style="color:#2E70DD;">DOWNLOADER</span><span class="badge badge-danger"></span></h2> 
+	</center>
+	</div>  <div class="panel panel-default panel-primary" id="mainpanel">
+    <div class="panel-heading">
+      <h1 style="text-align: center;" class="panel-title">Google Drvie
+         مولد  الروابط المباشره</h1>
+    </div>
+    <div class="panel-body">
+      <form>
+        <div class="form-group">
+          <label for="sharelink">رابط الملف</label>
+          <input type="text" class="form-control" id="sharelink" placeholder="https://drive.google.com/file/d/XX-X__XXXXX-XXXXXXXXXXXXXXXX/view?usp=sharing" autofocus="true">
+        </div>
+        <div class="form-group">
+          <label for="downloadlink">رابط التحميل المباشر</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="downloadlink" readonly>
+            <span class="input-group-btn">
+        <button id="copylinkbtn" class="btn btn-success" type="button" data-clipboard-target="#downloadlink" disabled>
+          <svg style="padding-top: px;" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+            <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+          </svg> نسخ الرابط</button>
+      </span>
+          </div>
+        </div>
+      </form>
+
+  <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  كيفية الأستخدام؟</button>
+  <div class="collapse" id="collapseExample">
+   <br />
+    <div class="well text-center">
+      <ul align="left">
+	  <p><strong>"يعمل مع ملفات اي حساب"</strong></p>
+		<li>Google Drive افتح</li>
+		<li>ضغطه على اليمين الملف</li>
+		<li>اضغط على مشاركه</li>
+		<li>اضغط على الحصول على رابط قابل للمشاركة</li>
+		<li>اضغط على نسخ الرابط</li>
+		<li>الصق الرابط هان</li>
+	  </ul>
+    </div>
+  </div>      
+      
+    </div>
+     <div class="panel-footer text-right">&copy;creat by:<b> Abhijit Kumar </b></div>
+  
+
+    <div class="panel-footer text-right">&copy; دراسه اونلاين سادس
+    
+    
+    <br>
+    <br>
+    <a style="color: #000; marks-right:200px;margin-right: 100px;"  href="https://fs-allah10.blogspot.com"><svg color="#00C4FF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+      </svg> موقعنا الرسمي</a>
+      
+    
+    </div>
+
+  
+ 
+  
+</div>
+ 
+  <style>#mainpanel {
+  margin-top: 70px;
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+  }</style> 
+   
+   
+   
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.5/bootstrap-notify.min.js'></script>
+<script>
+  
+  
+  (function($) {
+    $(function() {
+      var $shareLink = $('#sharelink'),
+        $downloadLink = $('#downloadlink'),
+        $copyButton = $('#copylinkbtn'),
+        clipboard;
+  
+      $shareLink.on('keyup paste', function() {
+        var link = $shareLink.val(),
+          l = link.replace(/\/file\/d\/(.+)\/(.+)/, "/uc?export=download&id=$1");
+        if (l !== link) {
+          $downloadLink.val(l);
+          $copyButton.removeAttr('disabled');
+        } else {
+          $downloadLink.val('');
+          $copyButton.attr('disabled', 'disabled');
+        }
+      });
+  
+      $downloadLink.on('click', function() {
+        $downloadLink.select();
+      });
+  
+      clipboard = new Clipboard('#copylinkbtn');
+      clipboard.on('success', function(e) {
+        $.notify({
+          icon: 'glyphicon glyphicon-ok-circle',
+          title: ':تم نسخ الرابط الى الحافضه',
+          message: e.text,
+          url: e.text,
+          target: '_blank'
+        }, {
+          // settings
+          type: "success",
+          placement: {
+            from: "top",
+            align: "center"
+          }
+        });
+  
+        // $.notify(e.text + " copied to clipboard.");
+  
+        e.clearSelection();
+      });
+  
+    });
+  })(jQuery);
+</script>
+</body>
+
+</html>
